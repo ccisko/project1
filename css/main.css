@@ -1,0 +1,69 @@
+/* Enter your custom CSS here */
+/* all  Browsers */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* whole page items */
+* {
+    font-family: "Lucida Grande", sans-serif;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*title */
+h1 {
+    margin-top: 44px;
+    color: #666;
+    margin-left: 250px;
+    font-size: 48px;
+}
+
+/* orange text */
+h2 {
+    color: #f07c17;
+    margin-left: 15px;
+    font-size: 28px;
+}
+
+/* left column */
+img {
+    width: 370px;
+    height: 375px;
+    margin-left: 5px;
+    margin-top: 24px;
+}
+
+.mfbox {
+    color:#ccc;
+    margin-top: 25px;
+    margin-left: 5px;
+    border: 1px;
+    border-style: solid;
+    width: 370px;
+    height: 219px;
+}
+
+ul {
+    margin-left: 15px;
+    margin-top: 5px;
+    color: #666;
+    font-size: 14px;
+    line-height: 180%;
+}
+
+/* right column */
+p {
+    color: #666;
+    margin-right: 50px;
+    font-size: 14px;
+    line-height: 180%;
+    width: 70%;
+}
